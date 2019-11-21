@@ -1,0 +1,1588 @@
+[INFO ][2019/11/19 22:33:4981 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running Spark version 2.1.0
+[INFO ][2019/11/19 22:33:49507][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing view acls to: BlueT11,root
+[INFO ][2019/11/19 22:33:49509][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing modify acls to: BlueT11,root
+[INFO ][2019/11/19 22:33:49510][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing view acls groups to: 
+[INFO ][2019/11/19 22:33:49510][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing modify acls groups to: 
+[INFO ][2019/11/19 22:33:49510][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(BlueT11, root); groups with view permissions: Set(); users  with modify permissions: Set(BlueT11, root); groups with modify permissions: Set()
+[INFO ][2019/11/19 22:33:5043 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'sparkDriver' on port 49356.
+[INFO ][2019/11/19 22:33:5055 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering MapOutputTracker
+[INFO ][2019/11/19 22:33:5068 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering BlockManagerMaster
+[INFO ][2019/11/19 22:33:5070 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO ][2019/11/19 22:33:5071 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManagerMasterEndpoint up
+[INFO ][2019/11/19 22:33:5079 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created local directory at C:\Users\VULCAN\AppData\Local\Temp\blockmgr-39b12b03-6ab9-453f-8907-4c49e6f7d16b
+[INFO ][2019/11/19 22:33:50109][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MemoryStore started with capacity 898.5 MB
+[INFO ][2019/11/19 22:33:50137][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering OutputCommitCoordinator
+[INFO ][2019/11/19 22:33:50256][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'SparkUI' on port 4040.
+[INFO ][2019/11/19 22:33:50257][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Bound SparkUI to 0.0.0.0, and started at http://192.168.137.1:4040
+[INFO ][2019/11/19 22:33:50306][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting executor ID driver on host localhost
+[INFO ][2019/11/19 22:33:50325][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49381.
+[INFO ][2019/11/19 22:33:50325][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Server created on 192.168.137.1:49381
+[INFO ][2019/11/19 22:33:50326][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO ][2019/11/19 22:33:50327][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering BlockManager BlockManagerId(driver, 192.168.137.1, 49381, None)
+[INFO ][2019/11/19 22:33:50329][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering block manager 192.168.137.1:49381 with 898.5 MB RAM, BlockManagerId(driver, 192.168.137.1, 49381, None)
+[INFO ][2019/11/19 22:33:50331][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registered BlockManager BlockManagerId(driver, 192.168.137.1, 49381, None)
+[INFO ][2019/11/19 22:33:50331][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Initialized BlockManager: BlockManagerId(driver, 192.168.137.1, 49381, None)
+[INFO ][2019/11/19 22:33:50756][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_0 stored as values in memory (estimated size 208.5 KB, free 898.3 MB)
+[INFO ][2019/11/19 22:33:50806][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 20.0 KB, free 898.3 MB)
+[INFO ][2019/11/19 22:33:50808][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_0_piece0 in memory on 192.168.137.1:49381 (size: 20.0 KB, free: 898.5 MB)
+[INFO ][2019/11/19 22:33:50811][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 0 from textFile at Movie_Users_Analyzer.scala:19
+[INFO ][2019/11/19 22:33:50857][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_1 stored as values in memory (estimated size 208.5 KB, free 898.1 MB)
+[INFO ][2019/11/19 22:33:50869][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 20.0 KB, free 898.1 MB)
+[INFO ][2019/11/19 22:33:50870][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_1_piece0 in memory on 192.168.137.1:49381 (size: 20.0 KB, free: 898.5 MB)
+[INFO ][2019/11/19 22:33:50871][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 1 from textFile at Movie_Users_Analyzer.scala:20
+[INFO ][2019/11/19 22:33:50880][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_2 stored as values in memory (estimated size 208.5 KB, free 897.9 MB)
+[INFO ][2019/11/19 22:33:50891][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 20.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:50892][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_2_piece0 in memory on 192.168.137.1:49381 (size: 20.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:50893][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 2 from textFile at Movie_Users_Analyzer.scala:21
+[INFO ][2019/11/19 22:33:50938][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:33:50971][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:26
+[INFO ][2019/11/19 22:33:50982][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 0 (collect at Movie_Users_Analyzer.scala:26) with 2 output partitions
+[INFO ][2019/11/19 22:33:50982][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 0 (collect at Movie_Users_Analyzer.scala:26)
+[INFO ][2019/11/19 22:33:50982][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:33:50983][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:33:50989][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 0 (MapPartitionsRDD[7] at map at Movie_Users_Analyzer.scala:23), which has no missing parents
+[INFO ][2019/11/19 22:33:517  ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_3 stored as values in memory (estimated size 3.5 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:5110 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_3_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:5111 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_3_piece0 in memory on 192.168.137.1:49381 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:5111 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 3 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:5114 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 0 (MapPartitionsRDD[7] at map at Movie_Users_Analyzer.scala:23)
+[INFO ][2019/11/19 22:33:5115 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 0.0 with 2 tasks
+[INFO ][2019/11/19 22:33:5147 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 5984 bytes)
+[INFO ][2019/11/19 22:33:5149 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 5984 bytes)
+[INFO ][2019/11/19 22:33:5154 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 0.0 (TID 0)
+[INFO ][2019/11/19 22:33:5154 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 0.0 (TID 1)
+[INFO ][2019/11/19 22:33:51134][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:33:51134][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:33:51141][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+[INFO ][2019/11/19 22:33:51141][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+[INFO ][2019/11/19 22:33:51141][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+[INFO ][2019/11/19 22:33:51141][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+[INFO ][2019/11/19 22:33:51142][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[INFO ][2019/11/19 22:33:51172][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 0.0 (TID 0). 14606 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51172][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 0.0 (TID 1). 14544 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51185][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 0.0 (TID 1) in 134 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51185][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 0.0 (TID 0) in 154 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51186][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51188][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 0 (collect at Movie_Users_Analyzer.scala:26) finished in 0.165 s
+[INFO ][2019/11/19 22:33:51191][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 0 finished: collect at Movie_Users_Analyzer.scala:26, took 0.220137 s
+[INFO ][2019/11/19 22:33:51200][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:30
+[INFO ][2019/11/19 22:33:51201][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 1 (collect at Movie_Users_Analyzer.scala:30) with 2 output partitions
+[INFO ][2019/11/19 22:33:51201][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 1 (collect at Movie_Users_Analyzer.scala:30)
+[INFO ][2019/11/19 22:33:51201][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:33:51201][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:33:51201][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 1 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29), which has no missing parents
+[INFO ][2019/11/19 22:33:51202][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_4 stored as values in memory (estimated size 3.6 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51204][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51205][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_4_piece0 in memory on 192.168.137.1:49381 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51206][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 4 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51206][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29)
+[INFO ][2019/11/19 22:33:51206][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 1.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, PROCESS_LOCAL, 5985 bytes)
+[INFO ][2019/11/19 22:33:51207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, PROCESS_LOCAL, 5985 bytes)
+[INFO ][2019/11/19 22:33:51208][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 1.0 (TID 2)
+[INFO ][2019/11/19 22:33:51208][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 1.0 (TID 3)
+[INFO ][2019/11/19 22:33:51210][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:33:51211][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:33:51221][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 1.0 (TID 3). 19688 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51222][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 1.0 (TID 2). 19649 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51226][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 1.0 (TID 3) in 19 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51226][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 1.0 (TID 2) in 20 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51227][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51227][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 1 (collect at Movie_Users_Analyzer.scala:30) finished in 0.021 s
+[INFO ][2019/11/19 22:33:51227][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 1 finished: collect at Movie_Users_Analyzer.scala:30, took 0.027308 s
+[INFO ][2019/11/19 22:33:51242][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:33:51247][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:38
+[INFO ][2019/11/19 22:33:51248][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 2 (collect at Movie_Users_Analyzer.scala:38) with 2 output partitions
+[INFO ][2019/11/19 22:33:51248][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 2 (collect at Movie_Users_Analyzer.scala:38)
+[INFO ][2019/11/19 22:33:51248][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:33:51248][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:33:51249][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 2 (MapPartitionsRDD[10] at map at Movie_Users_Analyzer.scala:33), which has no missing parents
+[INFO ][2019/11/19 22:33:51251][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_5 stored as values in memory (estimated size 3.5 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51253][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_5_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51254][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_5_piece0 in memory on 192.168.137.1:49381 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51255][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 5 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51255][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[10] at map at Movie_Users_Analyzer.scala:33)
+[INFO ][2019/11/19 22:33:51255][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 2.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51256][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, PROCESS_LOCAL, 5986 bytes)
+[INFO ][2019/11/19 22:33:51257][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, PROCESS_LOCAL, 5986 bytes)
+[INFO ][2019/11/19 22:33:51257][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 2.0 (TID 5)
+[INFO ][2019/11/19 22:33:51257][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 2.0 (TID 4)
+[INFO ][2019/11/19 22:33:51260][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/movie.dat:1421821+1421821
+[INFO ][2019/11/19 22:33:51260][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/movie.dat:0+1421821
+[INFO ][2019/11/19 22:33:51494][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block taskresult_5 stored as bytes in memory (estimated size 1720.7 KB, free 896.1 MB)
+[INFO ][2019/11/19 22:33:51495][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added taskresult_5 in memory on 192.168.137.1:49381 (size: 1720.7 KB, free: 896.8 MB)
+[INFO ][2019/11/19 22:33:51496][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 2.0 (TID 5). 1761984 bytes result sent via BlockManager)
+[INFO ][2019/11/19 22:33:51502][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block taskresult_4 stored as bytes in memory (estimated size 1699.3 KB, free 894.5 MB)
+[INFO ][2019/11/19 22:33:51505][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added taskresult_4 in memory on 192.168.137.1:49381 (size: 1699.3 KB, free: 895.1 MB)
+[INFO ][2019/11/19 22:33:51506][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 2.0 (TID 4). 1740036 bytes result sent via BlockManager)
+[INFO ][2019/11/19 22:33:51534][org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:250)]
+Successfully created connection to /192.168.137.1:49381 after 22 ms (0 ms spent in bootstraps)
+[INFO ][2019/11/19 22:33:51640][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_4_piece0 on 192.168.137.1:49381 in memory (size: 2.0 KB, free: 895.1 MB)
+[INFO ][2019/11/19 22:33:51648][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 2.0 (TID 4) in 391 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51648][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed taskresult_4 on 192.168.137.1:49381 in memory (size: 1699.3 KB, free: 896.8 MB)
+[INFO ][2019/11/19 22:33:51654][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 2.0 (TID 5) in 398 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51654][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 2.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51654][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 2 (collect at Movie_Users_Analyzer.scala:38) finished in 0.399 s
+[INFO ][2019/11/19 22:33:51654][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed taskresult_5 on 192.168.137.1:49381 in memory (size: 1720.7 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51654][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 2 finished: collect at Movie_Users_Analyzer.scala:38, took 0.407152 s
+[INFO ][2019/11/19 22:33:51670][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:33:51674][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:45
+[INFO ][2019/11/19 22:33:51675][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 3 (collect at Movie_Users_Analyzer.scala:45) with 2 output partitions
+[INFO ][2019/11/19 22:33:51675][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 3 (collect at Movie_Users_Analyzer.scala:45)
+[INFO ][2019/11/19 22:33:51675][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:33:51675][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:33:51675][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 3 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:43), which has no missing parents
+[INFO ][2019/11/19 22:33:51676][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_6 stored as values in memory (estimated size 3.7 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51678][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_6_piece0 stored as bytes in memory (estimated size 2.1 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51679][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_6_piece0 in memory on 192.168.137.1:49381 (size: 2.1 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51679][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 6 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51679][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 3 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:43)
+[INFO ][2019/11/19 22:33:51680][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 3.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51680][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 3.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 5988 bytes)
+[INFO ][2019/11/19 22:33:51681][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 3.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 5988 bytes)
+[INFO ][2019/11/19 22:33:51681][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 3.0 (TID 6)
+[INFO ][2019/11/19 22:33:51681][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 3.0 (TID 7)
+[INFO ][2019/11/19 22:33:51683][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:989586+989587
+[INFO ][2019/11/19 22:33:51683][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:0+989586
+[INFO ][2019/11/19 22:33:51708][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 3.0 (TID 6). 1182 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51709][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 3.0 (TID 6) in 29 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51711][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 3.0 (TID 7). 1107 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51711][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 3.0 (TID 7) in 30 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51712][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 3.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51712][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 3 (collect at Movie_Users_Analyzer.scala:45) finished in 0.032 s
+[INFO ][2019/11/19 22:33:51712][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 3 finished: collect at Movie_Users_Analyzer.scala:45, took 0.037749 s
+[INFO ][2019/11/19 22:33:51733][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:51
+[INFO ][2019/11/19 22:33:51735][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering RDD 13 (filter at Movie_Users_Analyzer.scala:43)
+[INFO ][2019/11/19 22:33:51735][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering RDD 8 (map at Movie_Users_Analyzer.scala:29)
+[INFO ][2019/11/19 22:33:51735][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 4 (collect at Movie_Users_Analyzer.scala:51) with 2 output partitions
+[INFO ][2019/11/19 22:33:51735][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 6 (collect at Movie_Users_Analyzer.scala:51)
+[INFO ][2019/11/19 22:33:51736][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List(ShuffleMapStage 5, ShuffleMapStage 4)
+[INFO ][2019/11/19 22:33:51736][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List(ShuffleMapStage 5, ShuffleMapStage 4)
+[INFO ][2019/11/19 22:33:51736][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ShuffleMapStage 4 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:43), which has no missing parents
+[INFO ][2019/11/19 22:33:51738][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_7 stored as values in memory (estimated size 4.3 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51740][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.4 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51740][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_7_piece0 in memory on 192.168.137.1:49381 (size: 2.4 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51740][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 7 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51742][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:43)
+[INFO ][2019/11/19 22:33:51742][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 4.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51742][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ShuffleMapStage 5 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29), which has no missing parents
+[INFO ][2019/11/19 22:33:51743][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 4.0 (TID 8, localhost, executor driver, partition 0, PROCESS_LOCAL, 5977 bytes)
+[INFO ][2019/11/19 22:33:51743][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 4.0 (TID 9, localhost, executor driver, partition 1, PROCESS_LOCAL, 5977 bytes)
+[INFO ][2019/11/19 22:33:51743][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_8 stored as values in memory (estimated size 4.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51743][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 4.0 (TID 8)
+[INFO ][2019/11/19 22:33:51743][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 4.0 (TID 9)
+[INFO ][2019/11/19 22:33:51745][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_8_piece0 stored as bytes in memory (estimated size 2.4 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51746][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_8_piece0 in memory on 192.168.137.1:49381 (size: 2.4 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51746][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 8 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51747][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:0+989586
+[INFO ][2019/11/19 22:33:51747][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:989586+989587
+[INFO ][2019/11/19 22:33:51747][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29)
+[INFO ][2019/11/19 22:33:51747][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 5.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51749][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 5.0 (TID 10, localhost, executor driver, partition 0, PROCESS_LOCAL, 5974 bytes)
+[INFO ][2019/11/19 22:33:51750][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 5.0 (TID 11, localhost, executor driver, partition 1, PROCESS_LOCAL, 5974 bytes)
+[INFO ][2019/11/19 22:33:51751][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 5.0 (TID 10)
+[INFO ][2019/11/19 22:33:51751][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 5.0 (TID 11)
+[INFO ][2019/11/19 22:33:51753][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:33:51753][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:33:51783][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_6_piece0 on 192.168.137.1:49381 in memory (size: 2.1 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51785][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_5_piece0 on 192.168.137.1:49381 in memory (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51787][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 5.0 (TID 10). 1484 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51787][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 5.0 (TID 11). 1405 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51788][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 4.0 (TID 8). 1397 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51788][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 4.0 (TID 9). 1397 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51788][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 5.0 (TID 10) in 40 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51789][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 5.0 (TID 11) in 40 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51789][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 5.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51789][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 4.0 (TID 8) in 47 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51789][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 4.0 (TID 9) in 46 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51790][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 4.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51789][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ShuffleMapStage 5 (map at Movie_Users_Analyzer.scala:29) finished in 0.041 s
+[INFO ][2019/11/19 22:33:51790][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+looking for newly runnable stages
+[INFO ][2019/11/19 22:33:51790][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+running: Set(ShuffleMapStage 4)
+[INFO ][2019/11/19 22:33:51791][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+waiting: Set(ResultStage 6)
+[INFO ][2019/11/19 22:33:51791][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+failed: Set()
+[INFO ][2019/11/19 22:33:51793][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ShuffleMapStage 4 (filter at Movie_Users_Analyzer.scala:43) finished in 0.051 s
+[INFO ][2019/11/19 22:33:51793][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+looking for newly runnable stages
+[INFO ][2019/11/19 22:33:51794][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+running: Set()
+[INFO ][2019/11/19 22:33:51794][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+waiting: Set(ResultStage 6)
+[INFO ][2019/11/19 22:33:51794][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+failed: Set()
+[INFO ][2019/11/19 22:33:51794][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 6 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:50), which has no missing parents
+[INFO ][2019/11/19 22:33:51795][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_9 stored as values in memory (estimated size 3.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51796][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_9_piece0 stored as bytes in memory (estimated size 1865.0 B, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51797][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_9_piece0 in memory on 192.168.137.1:49381 (size: 1865.0 B, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51797][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 9 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51797][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 6 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:50)
+[INFO ][2019/11/19 22:33:51797][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 6.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51798][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 6.0 (TID 12, localhost, executor driver, partition 0, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:33:51799][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 6.0 (TID 13, localhost, executor driver, partition 1, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:33:51799][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 6.0 (TID 13)
+[INFO ][2019/11/19 22:33:51799][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 6.0 (TID 12)
+[INFO ][2019/11/19 22:33:51807][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51807][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51808][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 3 ms
+[INFO ][2019/11/19 22:33:51808][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 3 ms
+[INFO ][2019/11/19 22:33:51812][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51812][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:33:51812][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51813][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 1 ms
+[INFO ][2019/11/19 22:33:51885][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 6.0 (TID 13). 1628 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51885][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 6.0 (TID 12). 1628 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51885][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 6.0 (TID 13) in 87 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51886][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 6.0 (TID 12) in 88 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51886][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 6.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51886][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 6 (collect at Movie_Users_Analyzer.scala:51) finished in 0.089 s
+[INFO ][2019/11/19 22:33:51887][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 4 finished: collect at Movie_Users_Analyzer.scala:51, took 0.153982 s
+[INFO ][2019/11/19 22:33:51892][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:52
+[INFO ][2019/11/19 22:33:51894][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Size of output statuses for shuffle 0 is 160 bytes
+[INFO ][2019/11/19 22:33:51896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Size of output statuses for shuffle 1 is 161 bytes
+[INFO ][2019/11/19 22:33:51896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 5 (collect at Movie_Users_Analyzer.scala:52) with 2 output partitions
+[INFO ][2019/11/19 22:33:51896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 9 (collect at Movie_Users_Analyzer.scala:52)
+[INFO ][2019/11/19 22:33:51896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List(ShuffleMapStage 7, ShuffleMapStage 8)
+[INFO ][2019/11/19 22:33:51896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:33:51896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 9 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:50), which has no missing parents
+[INFO ][2019/11/19 22:33:51898][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_10 stored as values in memory (estimated size 3.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51900][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_10_piece0 stored as bytes in memory (estimated size 1865.0 B, free 897.8 MB)
+[INFO ][2019/11/19 22:33:51901][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_10_piece0 in memory on 192.168.137.1:49381 (size: 1865.0 B, free: 898.4 MB)
+[INFO ][2019/11/19 22:33:51901][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 10 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:33:51901][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 9 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:50)
+[INFO ][2019/11/19 22:33:51901][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 9.0 with 2 tasks
+[INFO ][2019/11/19 22:33:51902][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 9.0 (TID 14, localhost, executor driver, partition 0, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:33:51903][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 9.0 (TID 15, localhost, executor driver, partition 1, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:33:51903][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 9.0 (TID 15)
+[INFO ][2019/11/19 22:33:51903][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 9.0 (TID 14)
+[INFO ][2019/11/19 22:33:51905][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51905][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:33:51906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:33:51907][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 1 ms
+[INFO ][2019/11/19 22:33:51907][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:33:51908][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 1 ms
+[INFO ][2019/11/19 22:33:51928][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 9.0 (TID 15). 1718 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51928][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 9.0 (TID 14). 1628 bytes result sent to driver
+[INFO ][2019/11/19 22:33:51929][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 9.0 (TID 14) in 28 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:33:51929][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 9.0 (TID 15) in 27 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:33:51930][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 9.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:33:51930][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 9 (collect at Movie_Users_Analyzer.scala:52) finished in 0.029 s
+[INFO ][2019/11/19 22:33:51930][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 5 finished: collect at Movie_Users_Analyzer.scala:52, took 0.038062 s
+[INFO ][2019/11/19 22:33:51933][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Invoking stop() from shutdown hook
+[INFO ][2019/11/19 22:33:51939][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Stopped Spark web UI at http://192.168.137.1:4040
+[INFO ][2019/11/19 22:33:51944][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MapOutputTrackerMasterEndpoint stopped!
+[INFO ][2019/11/19 22:33:51961][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MemoryStore cleared
+[INFO ][2019/11/19 22:33:51962][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManager stopped
+[INFO ][2019/11/19 22:33:51963][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManagerMaster stopped
+[INFO ][2019/11/19 22:33:51964][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+OutputCommitCoordinator stopped!
+[INFO ][2019/11/19 22:33:51966][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully stopped SparkContext
+[INFO ][2019/11/19 22:33:51968][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Shutdown hook called
+[INFO ][2019/11/19 22:33:51969][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Deleting directory C:\Users\VULCAN\AppData\Local\Temp\spark-f230019f-31d8-4849-9bb5-22ca262e55ab
+[INFO ][2019/11/19 22:38:51440][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running Spark version 2.1.0
+[INFO ][2019/11/19 22:38:51781][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing view acls to: BlueT11,root
+[INFO ][2019/11/19 22:38:51783][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing modify acls to: BlueT11,root
+[INFO ][2019/11/19 22:38:51783][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing view acls groups to: 
+[INFO ][2019/11/19 22:38:51783][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing modify acls groups to: 
+[INFO ][2019/11/19 22:38:51784][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(BlueT11, root); groups with view permissions: Set(); users  with modify permissions: Set(BlueT11, root); groups with modify permissions: Set()
+[INFO ][2019/11/19 22:38:52264][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'sparkDriver' on port 49500.
+[INFO ][2019/11/19 22:38:52276][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering MapOutputTracker
+[INFO ][2019/11/19 22:38:52288][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering BlockManagerMaster
+[INFO ][2019/11/19 22:38:52290][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO ][2019/11/19 22:38:52290][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManagerMasterEndpoint up
+[INFO ][2019/11/19 22:38:52297][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created local directory at C:\Users\VULCAN\AppData\Local\Temp\blockmgr-6e7a4647-2507-4f00-9121-19ff1afaa907
+[INFO ][2019/11/19 22:38:52327][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MemoryStore started with capacity 898.5 MB
+[INFO ][2019/11/19 22:38:52362][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering OutputCommitCoordinator
+[INFO ][2019/11/19 22:38:52482][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'SparkUI' on port 4040.
+[INFO ][2019/11/19 22:38:52483][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Bound SparkUI to 0.0.0.0, and started at http://192.168.137.1:4040
+[INFO ][2019/11/19 22:38:52531][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting executor ID driver on host localhost
+[INFO ][2019/11/19 22:38:52550][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49525.
+[INFO ][2019/11/19 22:38:52550][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Server created on 192.168.137.1:49525
+[INFO ][2019/11/19 22:38:52551][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO ][2019/11/19 22:38:52552][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering BlockManager BlockManagerId(driver, 192.168.137.1, 49525, None)
+[INFO ][2019/11/19 22:38:52554][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering block manager 192.168.137.1:49525 with 898.5 MB RAM, BlockManagerId(driver, 192.168.137.1, 49525, None)
+[INFO ][2019/11/19 22:38:52555][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registered BlockManager BlockManagerId(driver, 192.168.137.1, 49525, None)
+[INFO ][2019/11/19 22:38:52555][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Initialized BlockManager: BlockManagerId(driver, 192.168.137.1, 49525, None)
+[INFO ][2019/11/19 22:38:52980][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_0 stored as values in memory (estimated size 208.5 KB, free 898.3 MB)
+[INFO ][2019/11/19 22:38:5334 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 20.0 KB, free 898.3 MB)
+[INFO ][2019/11/19 22:38:5336 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_0_piece0 in memory on 192.168.137.1:49525 (size: 20.0 KB, free: 898.5 MB)
+[INFO ][2019/11/19 22:38:5340 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 0 from textFile at Movie_Users_Analyzer.scala:19
+[INFO ][2019/11/19 22:38:5391 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_1 stored as values in memory (estimated size 208.5 KB, free 898.1 MB)
+[INFO ][2019/11/19 22:38:53106][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 20.0 KB, free 898.1 MB)
+[INFO ][2019/11/19 22:38:53107][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_1_piece0 in memory on 192.168.137.1:49525 (size: 20.0 KB, free: 898.5 MB)
+[INFO ][2019/11/19 22:38:53108][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 1 from textFile at Movie_Users_Analyzer.scala:20
+[INFO ][2019/11/19 22:38:53119][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_2 stored as values in memory (estimated size 208.5 KB, free 897.9 MB)
+[INFO ][2019/11/19 22:38:53134][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 20.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53135][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_2_piece0 in memory on 192.168.137.1:49525 (size: 20.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:53136][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 2 from textFile at Movie_Users_Analyzer.scala:21
+[INFO ][2019/11/19 22:38:53184][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:38:53223][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:26
+[INFO ][2019/11/19 22:38:53234][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 0 (collect at Movie_Users_Analyzer.scala:26) with 2 output partitions
+[INFO ][2019/11/19 22:38:53234][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 0 (collect at Movie_Users_Analyzer.scala:26)
+[INFO ][2019/11/19 22:38:53234][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:38:53235][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:38:53240][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 0 (MapPartitionsRDD[7] at map at Movie_Users_Analyzer.scala:23), which has no missing parents
+[INFO ][2019/11/19 22:38:53250][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_3 stored as values in memory (estimated size 3.5 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53262][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_3_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53263][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_3_piece0 in memory on 192.168.137.1:49525 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:53263][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 3 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:53350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 0 (MapPartitionsRDD[7] at map at Movie_Users_Analyzer.scala:23)
+[INFO ][2019/11/19 22:38:53357][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 0.0 with 2 tasks
+[INFO ][2019/11/19 22:38:53467][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 5984 bytes)
+[INFO ][2019/11/19 22:38:53469][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 5984 bytes)
+[INFO ][2019/11/19 22:38:53507][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 0.0 (TID 0)
+[INFO ][2019/11/19 22:38:53507][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 0.0 (TID 1)
+[INFO ][2019/11/19 22:38:53617][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:38:53617][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:38:53693][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+[INFO ][2019/11/19 22:38:53693][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+[INFO ][2019/11/19 22:38:53693][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+[INFO ][2019/11/19 22:38:53693][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[INFO ][2019/11/19 22:38:53693][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+[INFO ][2019/11/19 22:38:53762][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 0.0 (TID 1). 19184 bytes result sent to driver
+[INFO ][2019/11/19 22:38:53762][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 0.0 (TID 0). 19269 bytes result sent to driver
+[INFO ][2019/11/19 22:38:53777][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 0.0 (TID 1) in 304 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:53777][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 0.0 (TID 0) in 346 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:53778][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:53780][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 0 (collect at Movie_Users_Analyzer.scala:26) finished in 0.390 s
+[INFO ][2019/11/19 22:38:53799][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 0 finished: collect at Movie_Users_Analyzer.scala:26, took 0.576417 s
+[INFO ][2019/11/19 22:38:53819][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:31
+[INFO ][2019/11/19 22:38:53821][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 1 (collect at Movie_Users_Analyzer.scala:31) with 2 output partitions
+[INFO ][2019/11/19 22:38:53821][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 1 (collect at Movie_Users_Analyzer.scala:31)
+[INFO ][2019/11/19 22:38:53821][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:38:53821][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:38:53821][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 1 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29), which has no missing parents
+[INFO ][2019/11/19 22:38:53823][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_4 stored as values in memory (estimated size 3.6 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53825][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53825][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_4_piece0 in memory on 192.168.137.1:49525 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:53826][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 4 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:53826][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29)
+[INFO ][2019/11/19 22:38:53826][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 1.0 with 2 tasks
+[INFO ][2019/11/19 22:38:53827][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, PROCESS_LOCAL, 5985 bytes)
+[INFO ][2019/11/19 22:38:53827][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, PROCESS_LOCAL, 5985 bytes)
+[INFO ][2019/11/19 22:38:53828][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 1.0 (TID 2)
+[INFO ][2019/11/19 22:38:53828][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 1.0 (TID 3)
+[INFO ][2019/11/19 22:38:53830][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:38:53831][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:38:53837][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 1.0 (TID 3). 24328 bytes result sent to driver
+[INFO ][2019/11/19 22:38:53838][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 1.0 (TID 2). 24323 bytes result sent to driver
+[INFO ][2019/11/19 22:38:53839][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 1.0 (TID 3) in 12 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:53841][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 1.0 (TID 2) in 15 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:53841][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:53842][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 1 (collect at Movie_Users_Analyzer.scala:31) finished in 0.015 s
+[INFO ][2019/11/19 22:38:53842][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 1 finished: collect at Movie_Users_Analyzer.scala:31, took 0.021768 s
+[INFO ][2019/11/19 22:38:53848][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:38:53851][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:39
+[INFO ][2019/11/19 22:38:53852][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 2 (collect at Movie_Users_Analyzer.scala:39) with 2 output partitions
+[INFO ][2019/11/19 22:38:53852][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 2 (collect at Movie_Users_Analyzer.scala:39)
+[INFO ][2019/11/19 22:38:53852][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:38:53853][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:38:53853][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 2 (MapPartitionsRDD[10] at map at Movie_Users_Analyzer.scala:34), which has no missing parents
+[INFO ][2019/11/19 22:38:53854][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_5 stored as values in memory (estimated size 3.5 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53857][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_5_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:53857][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_5_piece0 in memory on 192.168.137.1:49525 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:53858][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 5 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:53858][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[10] at map at Movie_Users_Analyzer.scala:34)
+[INFO ][2019/11/19 22:38:53858][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 2.0 with 2 tasks
+[INFO ][2019/11/19 22:38:53860][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, PROCESS_LOCAL, 5986 bytes)
+[INFO ][2019/11/19 22:38:53860][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, PROCESS_LOCAL, 5986 bytes)
+[INFO ][2019/11/19 22:38:53861][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 2.0 (TID 5)
+[INFO ][2019/11/19 22:38:53861][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 2.0 (TID 4)
+[INFO ][2019/11/19 22:38:53863][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/movie.dat:0+1421821
+[INFO ][2019/11/19 22:38:53863][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/movie.dat:1421821+1421821
+[INFO ][2019/11/19 22:38:5493 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block taskresult_4 stored as bytes in memory (estimated size 1699.3 KB, free 896.2 MB)
+[INFO ][2019/11/19 22:38:5494 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added taskresult_4 in memory on 192.168.137.1:49525 (size: 1699.3 KB, free: 896.8 MB)
+[INFO ][2019/11/19 22:38:5495 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 2.0 (TID 4). 1740036 bytes result sent via BlockManager)
+[INFO ][2019/11/19 22:38:5496 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block taskresult_5 stored as bytes in memory (estimated size 1720.7 KB, free 894.5 MB)
+[INFO ][2019/11/19 22:38:5497 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added taskresult_5 in memory on 192.168.137.1:49525 (size: 1720.7 KB, free: 895.1 MB)
+[INFO ][2019/11/19 22:38:5497 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 2.0 (TID 5). 1761984 bytes result sent via BlockManager)
+[INFO ][2019/11/19 22:38:54173][org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:250)]
+Successfully created connection to /192.168.137.1:49525 after 66 ms (0 ms spent in bootstraps)
+[INFO ][2019/11/19 22:38:54324][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 2.0 (TID 5) in 464 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:54327][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 2.0 (TID 4) in 468 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:54327][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 2.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:54328][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 2 (collect at Movie_Users_Analyzer.scala:39) finished in 0.469 s
+[INFO ][2019/11/19 22:38:54328][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 2 finished: collect at Movie_Users_Analyzer.scala:39, took 0.476426 s
+[INFO ][2019/11/19 22:38:54329][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed taskresult_5 on 192.168.137.1:49525 in memory (size: 1720.7 KB, free: 896.8 MB)
+[INFO ][2019/11/19 22:38:54330][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed taskresult_4 on 192.168.137.1:49525 in memory (size: 1699.3 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54331][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_4_piece0 on 192.168.137.1:49525 in memory (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54345][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:38:54350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:46
+[INFO ][2019/11/19 22:38:54351][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 3 (collect at Movie_Users_Analyzer.scala:46) with 2 output partitions
+[INFO ][2019/11/19 22:38:54351][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 3 (collect at Movie_Users_Analyzer.scala:46)
+[INFO ][2019/11/19 22:38:54351][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:38:54351][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:38:54351][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 3 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:44), which has no missing parents
+[INFO ][2019/11/19 22:38:54353][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_6 stored as values in memory (estimated size 3.7 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54355][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_6_piece0 stored as bytes in memory (estimated size 2.1 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54355][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_6_piece0 in memory on 192.168.137.1:49525 (size: 2.1 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 6 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:54356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 3 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:44)
+[INFO ][2019/11/19 22:38:54356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 3.0 with 2 tasks
+[INFO ][2019/11/19 22:38:54357][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 3.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 5988 bytes)
+[INFO ][2019/11/19 22:38:54358][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 3.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 5988 bytes)
+[INFO ][2019/11/19 22:38:54358][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 3.0 (TID 6)
+[INFO ][2019/11/19 22:38:54358][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 3.0 (TID 7)
+[INFO ][2019/11/19 22:38:54360][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:0+989586
+[INFO ][2019/11/19 22:38:54360][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:989586+989587
+[INFO ][2019/11/19 22:38:54493][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 3.0 (TID 7). 1197 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54494][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 3.0 (TID 7) in 137 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:54495][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 3.0 (TID 6). 1272 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54496][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 3.0 (TID 6) in 139 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:54496][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 3.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:54496][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 3 (collect at Movie_Users_Analyzer.scala:46) finished in 0.140 s
+[INFO ][2019/11/19 22:38:54496][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 3 finished: collect at Movie_Users_Analyzer.scala:46, took 0.145601 s
+[INFO ][2019/11/19 22:38:54623][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:52
+[INFO ][2019/11/19 22:38:54625][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering RDD 13 (filter at Movie_Users_Analyzer.scala:44)
+[INFO ][2019/11/19 22:38:54626][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering RDD 8 (map at Movie_Users_Analyzer.scala:29)
+[INFO ][2019/11/19 22:38:54626][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 4 (collect at Movie_Users_Analyzer.scala:52) with 2 output partitions
+[INFO ][2019/11/19 22:38:54626][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 6 (collect at Movie_Users_Analyzer.scala:52)
+[INFO ][2019/11/19 22:38:54626][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List(ShuffleMapStage 5, ShuffleMapStage 4)
+[INFO ][2019/11/19 22:38:54627][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List(ShuffleMapStage 5, ShuffleMapStage 4)
+[INFO ][2019/11/19 22:38:54627][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ShuffleMapStage 4 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:44), which has no missing parents
+[INFO ][2019/11/19 22:38:54629][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_7 stored as values in memory (estimated size 4.3 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54632][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.4 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54632][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_7_piece0 in memory on 192.168.137.1:49525 (size: 2.4 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54633][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 7 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:54634][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:44)
+[INFO ][2019/11/19 22:38:54634][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 4.0 with 2 tasks
+[INFO ][2019/11/19 22:38:54635][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ShuffleMapStage 5 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29), which has no missing parents
+[INFO ][2019/11/19 22:38:54636][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 4.0 (TID 8, localhost, executor driver, partition 0, PROCESS_LOCAL, 5977 bytes)
+[INFO ][2019/11/19 22:38:54636][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_8 stored as values in memory (estimated size 4.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54636][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 4.0 (TID 9, localhost, executor driver, partition 1, PROCESS_LOCAL, 5977 bytes)
+[INFO ][2019/11/19 22:38:54637][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 4.0 (TID 8)
+[INFO ][2019/11/19 22:38:54637][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 4.0 (TID 9)
+[INFO ][2019/11/19 22:38:54638][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_8_piece0 stored as bytes in memory (estimated size 2.4 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54639][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_8_piece0 in memory on 192.168.137.1:49525 (size: 2.4 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54640][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 8 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:54640][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:29)
+[INFO ][2019/11/19 22:38:54640][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 5.0 with 2 tasks
+[INFO ][2019/11/19 22:38:54641][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:989586+989587
+[INFO ][2019/11/19 22:38:54641][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:0+989586
+[INFO ][2019/11/19 22:38:54642][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 5.0 (TID 10, localhost, executor driver, partition 0, PROCESS_LOCAL, 5974 bytes)
+[INFO ][2019/11/19 22:38:54642][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 5.0 (TID 11, localhost, executor driver, partition 1, PROCESS_LOCAL, 5974 bytes)
+[INFO ][2019/11/19 22:38:54643][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 5.0 (TID 11)
+[INFO ][2019/11/19 22:38:54643][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 5.0 (TID 10)
+[INFO ][2019/11/19 22:38:54647][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:38:54647][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:38:54691][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_6_piece0 on 192.168.137.1:49525 in memory (size: 2.1 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54693][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_5_piece0 on 192.168.137.1:49525 in memory (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54699][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 5.0 (TID 11). 1484 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54699][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 4.0 (TID 9). 1487 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54699][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 5.0 (TID 10). 1484 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54699][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 4.0 (TID 8). 1487 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54701][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 5.0 (TID 11) in 58 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:54701][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 4.0 (TID 9) in 65 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:54701][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 5.0 (TID 10) in 60 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:54701][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 5.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:54701][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 4.0 (TID 8) in 66 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:54701][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 4.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:54702][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ShuffleMapStage 5 (map at Movie_Users_Analyzer.scala:29) finished in 0.061 s
+[INFO ][2019/11/19 22:38:54703][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+looking for newly runnable stages
+[INFO ][2019/11/19 22:38:54704][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+running: Set(ShuffleMapStage 4)
+[INFO ][2019/11/19 22:38:54705][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+waiting: Set(ResultStage 6)
+[INFO ][2019/11/19 22:38:54705][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+failed: Set()
+[INFO ][2019/11/19 22:38:54708][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ShuffleMapStage 4 (filter at Movie_Users_Analyzer.scala:44) finished in 0.073 s
+[INFO ][2019/11/19 22:38:54708][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+looking for newly runnable stages
+[INFO ][2019/11/19 22:38:54709][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+running: Set()
+[INFO ][2019/11/19 22:38:54709][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+waiting: Set(ResultStage 6)
+[INFO ][2019/11/19 22:38:54709][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+failed: Set()
+[INFO ][2019/11/19 22:38:54709][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 6 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:51), which has no missing parents
+[INFO ][2019/11/19 22:38:54710][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_9 stored as values in memory (estimated size 3.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54712][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_9_piece0 stored as bytes in memory (estimated size 1865.0 B, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54712][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_9_piece0 in memory on 192.168.137.1:49525 (size: 1865.0 B, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54713][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 9 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:54713][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 6 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:51)
+[INFO ][2019/11/19 22:38:54713][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 6.0 with 2 tasks
+[INFO ][2019/11/19 22:38:54715][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 6.0 (TID 12, localhost, executor driver, partition 0, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:38:54715][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 6.0 (TID 13, localhost, executor driver, partition 1, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:38:54715][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 6.0 (TID 12)
+[INFO ][2019/11/19 22:38:54715][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 6.0 (TID 13)
+[INFO ][2019/11/19 22:38:54726][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54726][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54728][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 4 ms
+[INFO ][2019/11/19 22:38:54728][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 4 ms
+[INFO ][2019/11/19 22:38:54733][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54733][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:38:54733][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54734][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 1 ms
+[INFO ][2019/11/19 22:38:54879][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 6.0 (TID 12). 1999 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54879][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 6.0 (TID 13). 2117 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54880][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 6.0 (TID 12) in 166 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:54880][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 6.0 (TID 13) in 165 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:54881][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 6.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:54881][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 6 (collect at Movie_Users_Analyzer.scala:52) finished in 0.167 s
+[INFO ][2019/11/19 22:38:54882][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 4 finished: collect at Movie_Users_Analyzer.scala:52, took 0.257302 s
+[INFO ][2019/11/19 22:38:54888][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:53
+[INFO ][2019/11/19 22:38:54891][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Size of output statuses for shuffle 0 is 160 bytes
+[INFO ][2019/11/19 22:38:54894][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Size of output statuses for shuffle 1 is 158 bytes
+[INFO ][2019/11/19 22:38:54894][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 5 (collect at Movie_Users_Analyzer.scala:53) with 2 output partitions
+[INFO ][2019/11/19 22:38:54895][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 9 (collect at Movie_Users_Analyzer.scala:53)
+[INFO ][2019/11/19 22:38:54895][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List(ShuffleMapStage 7, ShuffleMapStage 8)
+[INFO ][2019/11/19 22:38:54895][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:38:54895][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 9 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:51), which has no missing parents
+[INFO ][2019/11/19 22:38:54896][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_10 stored as values in memory (estimated size 3.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54899][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_10_piece0 stored as bytes in memory (estimated size 1865.0 B, free 897.8 MB)
+[INFO ][2019/11/19 22:38:54900][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_10_piece0 in memory on 192.168.137.1:49525 (size: 1865.0 B, free: 898.4 MB)
+[INFO ][2019/11/19 22:38:54900][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 10 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:38:54900][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 9 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:51)
+[INFO ][2019/11/19 22:38:54900][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 9.0 with 2 tasks
+[INFO ][2019/11/19 22:38:54901][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 9.0 (TID 14, localhost, executor driver, partition 0, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:38:54902][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 9.0 (TID 15, localhost, executor driver, partition 1, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:38:54902][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 9.0 (TID 15)
+[INFO ][2019/11/19 22:38:54902][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 9.0 (TID 14)
+[INFO ][2019/11/19 22:38:54905][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54905][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:38:54905][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54905][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:38:54906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:38:54906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:38:54906][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 0 ms
+[INFO ][2019/11/19 22:38:54934][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 9.0 (TID 15). 2117 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54935][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 9.0 (TID 15) in 34 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:38:54938][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 9.0 (TID 14). 1999 bytes result sent to driver
+[INFO ][2019/11/19 22:38:54939][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 9.0 (TID 14) in 38 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:38:54939][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 9.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:38:54939][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 9 (collect at Movie_Users_Analyzer.scala:53) finished in 0.038 s
+[INFO ][2019/11/19 22:38:54939][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 5 finished: collect at Movie_Users_Analyzer.scala:53, took 0.052361 s
+[INFO ][2019/11/19 22:38:54943][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Invoking stop() from shutdown hook
+[INFO ][2019/11/19 22:38:54951][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Stopped Spark web UI at http://192.168.137.1:4040
+[INFO ][2019/11/19 22:38:54979][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MapOutputTrackerMasterEndpoint stopped!
+[INFO ][2019/11/19 22:38:54998][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MemoryStore cleared
+[INFO ][2019/11/19 22:38:54999][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManager stopped
+[INFO ][2019/11/19 22:38:550  ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManagerMaster stopped
+[INFO ][2019/11/19 22:38:553  ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+OutputCommitCoordinator stopped!
+[INFO ][2019/11/19 22:38:556  ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully stopped SparkContext
+[INFO ][2019/11/19 22:38:556  ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Shutdown hook called
+[INFO ][2019/11/19 22:38:556  ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Deleting directory C:\Users\VULCAN\AppData\Local\Temp\spark-bdfb27e6-ca4d-4967-92ff-9d69c02d4454
+[INFO ][2019/11/19 22:40:35709][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running Spark version 2.1.0
+[INFO ][2019/11/19 22:40:3686 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing view acls to: BlueT11,root
+[INFO ][2019/11/19 22:40:3688 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing modify acls to: BlueT11,root
+[INFO ][2019/11/19 22:40:3689 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing view acls groups to: 
+[INFO ][2019/11/19 22:40:3689 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Changing modify acls groups to: 
+[INFO ][2019/11/19 22:40:3689 ][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(BlueT11, root); groups with view permissions: Set(); users  with modify permissions: Set(BlueT11, root); groups with modify permissions: Set()
+[INFO ][2019/11/19 22:40:36587][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'sparkDriver' on port 49587.
+[INFO ][2019/11/19 22:40:36599][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering MapOutputTracker
+[INFO ][2019/11/19 22:40:36611][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering BlockManagerMaster
+[INFO ][2019/11/19 22:40:36613][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[INFO ][2019/11/19 22:40:36613][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManagerMasterEndpoint up
+[INFO ][2019/11/19 22:40:36621][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created local directory at C:\Users\VULCAN\AppData\Local\Temp\blockmgr-43ac4fe2-3ad6-4240-993d-e4bc0fa3d375
+[INFO ][2019/11/19 22:40:36653][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MemoryStore started with capacity 898.5 MB
+[INFO ][2019/11/19 22:40:36685][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering OutputCommitCoordinator
+[INFO ][2019/11/19 22:40:36804][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'SparkUI' on port 4040.
+[INFO ][2019/11/19 22:40:36805][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Bound SparkUI to 0.0.0.0, and started at http://192.168.137.1:4040
+[INFO ][2019/11/19 22:40:36850][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting executor ID driver on host localhost
+[INFO ][2019/11/19 22:40:36868][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49612.
+[INFO ][2019/11/19 22:40:36869][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Server created on 192.168.137.1:49612
+[INFO ][2019/11/19 22:40:36870][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[INFO ][2019/11/19 22:40:36871][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering BlockManager BlockManagerId(driver, 192.168.137.1, 49612, None)
+[INFO ][2019/11/19 22:40:36873][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering block manager 192.168.137.1:49612 with 898.5 MB RAM, BlockManagerId(driver, 192.168.137.1, 49612, None)
+[INFO ][2019/11/19 22:40:36874][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registered BlockManager BlockManagerId(driver, 192.168.137.1, 49612, None)
+[INFO ][2019/11/19 22:40:36874][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Initialized BlockManager: BlockManagerId(driver, 192.168.137.1, 49612, None)
+[INFO ][2019/11/19 22:40:37343][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_0 stored as values in memory (estimated size 208.5 KB, free 898.3 MB)
+[INFO ][2019/11/19 22:40:37392][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 20.0 KB, free 898.3 MB)
+[INFO ][2019/11/19 22:40:37394][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_0_piece0 in memory on 192.168.137.1:49612 (size: 20.0 KB, free: 898.5 MB)
+[INFO ][2019/11/19 22:40:37397][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 0 from textFile at Movie_Users_Analyzer.scala:19
+[INFO ][2019/11/19 22:40:37442][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_1 stored as values in memory (estimated size 208.5 KB, free 898.1 MB)
+[INFO ][2019/11/19 22:40:37452][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 20.0 KB, free 898.1 MB)
+[INFO ][2019/11/19 22:40:37452][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_1_piece0 in memory on 192.168.137.1:49612 (size: 20.0 KB, free: 898.5 MB)
+[INFO ][2019/11/19 22:40:37453][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 1 from textFile at Movie_Users_Analyzer.scala:20
+[INFO ][2019/11/19 22:40:37462][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_2 stored as values in memory (estimated size 208.5 KB, free 897.9 MB)
+[INFO ][2019/11/19 22:40:37474][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 20.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37476][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_2_piece0 in memory on 192.168.137.1:49612 (size: 20.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:37476][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 2 from textFile at Movie_Users_Analyzer.scala:21
+[INFO ][2019/11/19 22:40:37517][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:40:37557][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:25
+[INFO ][2019/11/19 22:40:37568][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 0 (collect at Movie_Users_Analyzer.scala:25) with 2 output partitions
+[INFO ][2019/11/19 22:40:37568][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 0 (collect at Movie_Users_Analyzer.scala:25)
+[INFO ][2019/11/19 22:40:37568][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:40:37569][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:40:37573][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 0 (MapPartitionsRDD[7] at map at Movie_Users_Analyzer.scala:22), which has no missing parents
+[INFO ][2019/11/19 22:40:37584][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_3 stored as values in memory (estimated size 3.5 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37585][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_3_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37586][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_3_piece0 in memory on 192.168.137.1:49612 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:37587][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 3 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:37590][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 0 (MapPartitionsRDD[7] at map at Movie_Users_Analyzer.scala:22)
+[INFO ][2019/11/19 22:40:37591][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 0.0 with 2 tasks
+[INFO ][2019/11/19 22:40:37620][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 5984 bytes)
+[INFO ][2019/11/19 22:40:37623][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 5984 bytes)
+[INFO ][2019/11/19 22:40:37627][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 0.0 (TID 0)
+[INFO ][2019/11/19 22:40:37627][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 0.0 (TID 1)
+[INFO ][2019/11/19 22:40:37698][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:40:37698][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:40:37705][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+[INFO ][2019/11/19 22:40:37705][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+[INFO ][2019/11/19 22:40:37705][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+[INFO ][2019/11/19 22:40:37705][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+[INFO ][2019/11/19 22:40:37705][org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)]
+mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[INFO ][2019/11/19 22:40:37729][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 0.0 (TID 1). 19263 bytes result sent to driver
+[INFO ][2019/11/19 22:40:37729][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 0.0 (TID 0). 19269 bytes result sent to driver
+[INFO ][2019/11/19 22:40:37740][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 0.0 (TID 0) in 133 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:37740][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 0.0 (TID 1) in 118 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:37741][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:37743][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 0 (collect at Movie_Users_Analyzer.scala:25) finished in 0.144 s
+[INFO ][2019/11/19 22:40:37746][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 0 finished: collect at Movie_Users_Analyzer.scala:25, took 0.188731 s
+[INFO ][2019/11/19 22:40:37754][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:30
+[INFO ][2019/11/19 22:40:37755][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 1 (collect at Movie_Users_Analyzer.scala:30) with 2 output partitions
+[INFO ][2019/11/19 22:40:37756][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 1 (collect at Movie_Users_Analyzer.scala:30)
+[INFO ][2019/11/19 22:40:37756][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:40:37756][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:40:37756][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 1 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:28), which has no missing parents
+[INFO ][2019/11/19 22:40:37757][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_4 stored as values in memory (estimated size 3.6 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37759][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37760][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_4_piece0 in memory on 192.168.137.1:49612 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:37760][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 4 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:37760][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:28)
+[INFO ][2019/11/19 22:40:37761][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 1.0 with 2 tasks
+[INFO ][2019/11/19 22:40:37761][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, PROCESS_LOCAL, 5985 bytes)
+[INFO ][2019/11/19 22:40:37762][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, PROCESS_LOCAL, 5985 bytes)
+[INFO ][2019/11/19 22:40:37762][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 1.0 (TID 3)
+[INFO ][2019/11/19 22:40:37762][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 1.0 (TID 2)
+[INFO ][2019/11/19 22:40:37765][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:40:37765][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:40:37775][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 1.0 (TID 3). 24418 bytes result sent to driver
+[INFO ][2019/11/19 22:40:37775][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 1.0 (TID 2). 24413 bytes result sent to driver
+[INFO ][2019/11/19 22:40:37779][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 1.0 (TID 3) in 17 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:37779][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 1.0 (TID 2) in 18 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:37779][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 1.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:37780][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 1 (collect at Movie_Users_Analyzer.scala:30) finished in 0.019 s
+[INFO ][2019/11/19 22:40:37780][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 1 finished: collect at Movie_Users_Analyzer.scala:30, took 0.025599 s
+[INFO ][2019/11/19 22:40:37786][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:40:37790][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:38
+[INFO ][2019/11/19 22:40:37790][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 2 (collect at Movie_Users_Analyzer.scala:38) with 2 output partitions
+[INFO ][2019/11/19 22:40:37790][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 2 (collect at Movie_Users_Analyzer.scala:38)
+[INFO ][2019/11/19 22:40:37791][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:40:37791][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:40:37791][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 2 (MapPartitionsRDD[10] at map at Movie_Users_Analyzer.scala:33), which has no missing parents
+[INFO ][2019/11/19 22:40:37792][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_5 stored as values in memory (estimated size 3.5 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37794][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_5_piece0 stored as bytes in memory (estimated size 2.0 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:37795][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_5_piece0 in memory on 192.168.137.1:49612 (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:37796][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 5 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:37796][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[10] at map at Movie_Users_Analyzer.scala:33)
+[INFO ][2019/11/19 22:40:37796][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 2.0 with 2 tasks
+[INFO ][2019/11/19 22:40:37797][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, PROCESS_LOCAL, 5986 bytes)
+[INFO ][2019/11/19 22:40:37798][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, PROCESS_LOCAL, 5986 bytes)
+[INFO ][2019/11/19 22:40:37799][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 2.0 (TID 4)
+[INFO ][2019/11/19 22:40:37799][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 2.0 (TID 5)
+[INFO ][2019/11/19 22:40:37801][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/movie.dat:1421821+1421821
+[INFO ][2019/11/19 22:40:37801][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/movie.dat:0+1421821
+[INFO ][2019/11/19 22:40:37987][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block taskresult_4 stored as bytes in memory (estimated size 1699.3 KB, free 896.2 MB)
+[INFO ][2019/11/19 22:40:37989][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added taskresult_4 in memory on 192.168.137.1:49612 (size: 1699.3 KB, free: 896.8 MB)
+[INFO ][2019/11/19 22:40:37990][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 2.0 (TID 4). 1740036 bytes result sent via BlockManager)
+[INFO ][2019/11/19 22:40:37994][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block taskresult_5 stored as bytes in memory (estimated size 1720.7 KB, free 894.5 MB)
+[INFO ][2019/11/19 22:40:37995][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added taskresult_5 in memory on 192.168.137.1:49612 (size: 1720.7 KB, free: 895.1 MB)
+[INFO ][2019/11/19 22:40:37995][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 2.0 (TID 5). 1761984 bytes result sent via BlockManager)
+[INFO ][2019/11/19 22:40:3829 ][org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:250)]
+Successfully created connection to /192.168.137.1:49612 after 27 ms (0 ms spent in bootstraps)
+[INFO ][2019/11/19 22:40:38151][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_4_piece0 on 192.168.137.1:49612 in memory (size: 2.0 KB, free: 895.1 MB)
+[INFO ][2019/11/19 22:40:38175][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 2.0 (TID 5) in 377 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:38176][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed taskresult_5 on 192.168.137.1:49612 in memory (size: 1720.7 KB, free: 896.8 MB)
+[INFO ][2019/11/19 22:40:38182][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 2.0 (TID 4) in 385 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:38183][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 2.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:38183][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 2 (collect at Movie_Users_Analyzer.scala:38) finished in 0.386 s
+[INFO ][2019/11/19 22:40:38183][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed taskresult_4 on 192.168.137.1:49612 in memory (size: 1699.3 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38183][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 2 finished: collect at Movie_Users_Analyzer.scala:38, took 0.393411 s
+[INFO ][2019/11/19 22:40:38202][org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:247)]
+Total input paths to process : 1
+[INFO ][2019/11/19 22:40:38206][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:43
+[INFO ][2019/11/19 22:40:38207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 3 (collect at Movie_Users_Analyzer.scala:43) with 2 output partitions
+[INFO ][2019/11/19 22:40:38207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 3 (collect at Movie_Users_Analyzer.scala:43)
+[INFO ][2019/11/19 22:40:38207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List()
+[INFO ][2019/11/19 22:40:38207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List()
+[INFO ][2019/11/19 22:40:38207][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 3 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:42), which has no missing parents
+[INFO ][2019/11/19 22:40:38209][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_6 stored as values in memory (estimated size 3.7 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38211][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_6_piece0 stored as bytes in memory (estimated size 2.1 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38212][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_6_piece0 in memory on 192.168.137.1:49612 (size: 2.1 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38212][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 6 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:38213][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 3 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:42)
+[INFO ][2019/11/19 22:40:38213][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 3.0 with 2 tasks
+[INFO ][2019/11/19 22:40:38214][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 3.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 5988 bytes)
+[INFO ][2019/11/19 22:40:38214][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 3.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 5988 bytes)
+[INFO ][2019/11/19 22:40:38215][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 3.0 (TID 6)
+[INFO ][2019/11/19 22:40:38215][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 3.0 (TID 7)
+[INFO ][2019/11/19 22:40:38217][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:989586+989587
+[INFO ][2019/11/19 22:40:38217][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:0+989586
+[INFO ][2019/11/19 22:40:38256][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 3.0 (TID 6). 1182 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38257][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 3.0 (TID 6) in 44 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:38257][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 3.0 (TID 7). 1107 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38258][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 3.0 (TID 7) in 44 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:38258][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 3.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:38258][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 3 (collect at Movie_Users_Analyzer.scala:43) finished in 0.045 s
+[INFO ][2019/11/19 22:40:38258][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 3 finished: collect at Movie_Users_Analyzer.scala:43, took 0.052206 s
+[INFO ][2019/11/19 22:40:38284][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting job: collect at Movie_Users_Analyzer.scala:49
+[INFO ][2019/11/19 22:40:38286][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering RDD 13 (filter at Movie_Users_Analyzer.scala:42)
+[INFO ][2019/11/19 22:40:38287][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Registering RDD 8 (map at Movie_Users_Analyzer.scala:28)
+[INFO ][2019/11/19 22:40:38287][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Got job 4 (collect at Movie_Users_Analyzer.scala:49) with 2 output partitions
+[INFO ][2019/11/19 22:40:38287][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Final stage: ResultStage 6 (collect at Movie_Users_Analyzer.scala:49)
+[INFO ][2019/11/19 22:40:38287][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Parents of final stage: List(ShuffleMapStage 5, ShuffleMapStage 4)
+[INFO ][2019/11/19 22:40:38288][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Missing parents: List(ShuffleMapStage 5, ShuffleMapStage 4)
+[INFO ][2019/11/19 22:40:38289][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ShuffleMapStage 4 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:42), which has no missing parents
+[INFO ][2019/11/19 22:40:38291][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_7 stored as values in memory (estimated size 4.3 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38292][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.4 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38293][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_7_piece0 in memory on 192.168.137.1:49612 (size: 2.4 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38294][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 7 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:38295][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[13] at filter at Movie_Users_Analyzer.scala:42)
+[INFO ][2019/11/19 22:40:38296][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 4.0 with 2 tasks
+[INFO ][2019/11/19 22:40:38296][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ShuffleMapStage 5 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:28), which has no missing parents
+[INFO ][2019/11/19 22:40:38298][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 4.0 (TID 8, localhost, executor driver, partition 0, PROCESS_LOCAL, 5977 bytes)
+[INFO ][2019/11/19 22:40:38298][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_8 stored as values in memory (estimated size 4.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38298][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 4.0 (TID 9, localhost, executor driver, partition 1, PROCESS_LOCAL, 5977 bytes)
+[INFO ][2019/11/19 22:40:38299][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 4.0 (TID 8)
+[INFO ][2019/11/19 22:40:38299][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 4.0 (TID 9)
+[INFO ][2019/11/19 22:40:38300][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_8_piece0 stored as bytes in memory (estimated size 2.4 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38301][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_8_piece0 in memory on 192.168.137.1:49612 (size: 2.4 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38302][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 8 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:38302][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[8] at map at Movie_Users_Analyzer.scala:28)
+[INFO ][2019/11/19 22:40:38302][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 5.0 with 2 tasks
+[INFO ][2019/11/19 22:40:38302][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:0+989586
+[INFO ][2019/11/19 22:40:38302][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/ratings.dat:989586+989587
+[INFO ][2019/11/19 22:40:38303][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 5.0 (TID 10, localhost, executor driver, partition 0, PROCESS_LOCAL, 5974 bytes)
+[INFO ][2019/11/19 22:40:38304][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 5.0 (TID 11, localhost, executor driver, partition 1, PROCESS_LOCAL, 5974 bytes)
+[INFO ][2019/11/19 22:40:38305][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 5.0 (TID 10)
+[INFO ][2019/11/19 22:40:38305][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 5.0 (TID 11)
+[INFO ][2019/11/19 22:40:38308][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:11314+11314
+[INFO ][2019/11/19 22:40:38308][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Input split: file:/F:/project/spark/data/user.dat:0+11314
+[INFO ][2019/11/19 22:40:38323][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_6_piece0 on 192.168.137.1:49612 in memory (size: 2.1 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38325][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed broadcast_5_piece0 on 192.168.137.1:49612 in memory (size: 2.0 KB, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38341][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 5.0 (TID 10). 1484 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38341][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 5.0 (TID 11). 1405 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38343][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 5.0 (TID 10) in 40 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:38343][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 5.0 (TID 11) in 39 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:38343][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 5.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:38344][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 4.0 (TID 9). 1397 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38344][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ShuffleMapStage 5 (map at Movie_Users_Analyzer.scala:28) finished in 0.042 s
+[INFO ][2019/11/19 22:40:38345][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 4.0 (TID 9) in 47 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:38345][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+looking for newly runnable stages
+[INFO ][2019/11/19 22:40:38345][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 4.0 (TID 8). 1397 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38345][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+running: Set(ShuffleMapStage 4)
+[INFO ][2019/11/19 22:40:38346][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 4.0 (TID 8) in 50 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:38346][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+waiting: Set(ResultStage 6)
+[INFO ][2019/11/19 22:40:38346][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 4.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:38347][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+failed: Set()
+[INFO ][2019/11/19 22:40:38350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ShuffleMapStage 4 (filter at Movie_Users_Analyzer.scala:42) finished in 0.054 s
+[INFO ][2019/11/19 22:40:38350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+looking for newly runnable stages
+[INFO ][2019/11/19 22:40:38350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+running: Set()
+[INFO ][2019/11/19 22:40:38350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+waiting: Set(ResultStage 6)
+[INFO ][2019/11/19 22:40:38350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+failed: Set()
+[INFO ][2019/11/19 22:40:38350][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting ResultStage 6 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:47), which has no missing parents
+[INFO ][2019/11/19 22:40:38351][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_9 stored as values in memory (estimated size 3.2 KB, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38353][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Block broadcast_9_piece0 stored as bytes in memory (estimated size 1865.0 B, free 897.8 MB)
+[INFO ][2019/11/19 22:40:38354][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Added broadcast_9_piece0 in memory on 192.168.137.1:49612 (size: 1865.0 B, free: 898.4 MB)
+[INFO ][2019/11/19 22:40:38354][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Created broadcast 9 from broadcast at DAGScheduler.scala:996
+[INFO ][2019/11/19 22:40:38354][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Submitting 2 missing tasks from ResultStage 6 (MapPartitionsRDD[16] at join at Movie_Users_Analyzer.scala:47)
+[INFO ][2019/11/19 22:40:38354][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Adding task set 6.0 with 2 tasks
+[INFO ][2019/11/19 22:40:38356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 0.0 in stage 6.0 (TID 12, localhost, executor driver, partition 0, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:40:38356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Starting task 1.0 in stage 6.0 (TID 13, localhost, executor driver, partition 1, PROCESS_LOCAL, 5814 bytes)
+[INFO ][2019/11/19 22:40:38356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 0.0 in stage 6.0 (TID 12)
+[INFO ][2019/11/19 22:40:38356][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Running task 1.0 in stage 6.0 (TID 13)
+[INFO ][2019/11/19 22:40:38365][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:40:38365][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:40:38366][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 3 ms
+[INFO ][2019/11/19 22:40:38366][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 3 ms
+[INFO ][2019/11/19 22:40:38371][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:40:38371][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Getting 2 non-empty blocks out of 2 blocks
+[INFO ][2019/11/19 22:40:38372][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 1 ms
+[INFO ][2019/11/19 22:40:38372][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Started 0 remote fetches in 1 ms
+[INFO ][2019/11/19 22:40:38533][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 6.0 (TID 13). 2207 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38533][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 6.0 (TID 12). 2089 bytes result sent to driver
+[INFO ][2019/11/19 22:40:38534][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 0.0 in stage 6.0 (TID 12) in 179 ms on localhost (executor driver) (1/2)
+[INFO ][2019/11/19 22:40:38534][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Finished task 1.0 in stage 6.0 (TID 13) in 178 ms on localhost (executor driver) (2/2)
+[INFO ][2019/11/19 22:40:38535][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Removed TaskSet 6.0, whose tasks have all completed, from pool 
+[INFO ][2019/11/19 22:40:38535][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+ResultStage 6 (collect at Movie_Users_Analyzer.scala:49) finished in 0.180 s
+[INFO ][2019/11/19 22:40:38535][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Job 4 finished: collect at Movie_Users_Analyzer.scala:49, took 0.251691 s
+[INFO ][2019/11/19 22:40:38544][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Stopped Spark web UI at http://192.168.137.1:4040
+[INFO ][2019/11/19 22:40:38551][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MapOutputTrackerMasterEndpoint stopped!
+[INFO ][2019/11/19 22:40:38570][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+MemoryStore cleared
+[INFO ][2019/11/19 22:40:38570][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManager stopped
+[INFO ][2019/11/19 22:40:38571][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+BlockManagerMaster stopped
+[INFO ][2019/11/19 22:40:38573][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+OutputCommitCoordinator stopped!
+[INFO ][2019/11/19 22:40:38576][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Successfully stopped SparkContext
+[INFO ][2019/11/19 22:40:38581][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Shutdown hook called
+[INFO ][2019/11/19 22:40:38582][org.apache.spark.internal.Logging$class.logInfo(Logging.scala:54)]
+Deleting directory C:\Users\VULCAN\AppData\Local\Temp\spark-e3203bb1-e2c4-401a-bb5a-331bde676eaa
