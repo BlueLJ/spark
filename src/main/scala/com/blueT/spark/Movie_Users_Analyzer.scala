@@ -206,6 +206,36 @@ object Movie_Users_Analyzer {
       .take(10)
       .map(x => (movieId2Name.getOrElse(x._1,null),x._2))
       .foreach(println)
+
+    /**
+      * 11月21日：
+      * 需求：分析大数据电影点评系统的二次排序功能，以时间戳Times tamp 和评分Rating 两个维度降序排列。
+      */
+    val pairWithSortkey: RDD[(SecondarySortKey, String)] = ratingsRDD.map(line => {
+      val spilts: Array[String] = line.split("\t")
+      (new SecondarySortKey(spilts(3).toDouble, spilts(2).toDouble), line)
+    })
+
+    val sorted = pairWithSortkey.sortByKey(false)
+    val sortResult = sorted.map(x => x._2)
+    println("以时间戳Times tamp 和评分Rating 两个维度降序二次排列top10:")
+    sortResult.take(10).foreach(println)
+
     sc.stop()
+  }
+}
+class SecondarySortKey (val first:Double,val second:Double) extends Ordered[SecondarySortKey] with Serializable {
+  override def compare(other: SecondarySortKey): Int = {
+    if (this.first -other.first != 0){
+      (this.first - other.first).toInt
+    } else {
+      if (this.second - other.second >0){
+        Math.ceil(this.second - other.second).toInt
+      } else  if (this.second - other.second < 0){
+        Math.floor(this.second - other.second).toInt
+      } else {
+        0
+      }
+    }
   }
 }
