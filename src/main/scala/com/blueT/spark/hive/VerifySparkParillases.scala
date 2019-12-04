@@ -64,7 +64,7 @@ object VerifySparkParillases {
     val data: DataFrame = spark.read.format("jdbc").options(map).load()
     data.show(10)
 
-    data.
+//    println(data.describe())
 
     /**
       * 第三种：
