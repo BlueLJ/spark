@@ -21,17 +21,6 @@ object MockData {
       .config(conf)
       .getOrCreate()
     val sc = spark.sparkContext
-    val strs = new ArrayBuffer[JSONObject]()
-    for ( i <- 1 until  100){
-      val json = new JSONObject
-      json.put("userID",i)
-
-      for (j <- 1 until 10){
-
-      }
-
-    }
-
 
   }
 }
